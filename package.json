@@ -1,0 +1,26 @@
+{
+  "name": "codigo_evoucher",
+  "version": "1.0.0",
+  "description": "evoucher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "kmk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "qrcode": "^1.4.4",
+    "sequelize": "^6.6.2",
+    "stream": "0.0.2"
+  }
+}
